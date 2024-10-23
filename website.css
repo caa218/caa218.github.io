@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image:url('images/AdobeStock_541053140.jpeg');
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile-wrapper {
+    display: flex;
+    align-items: left;
+    gap: 100px; 
+}
+
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover; 
+}
+.profile-header {
+    width: 100%;
+    max-width: 1000px;
+    text-align: left;
+    padding: 20px;
+}
+
+.profile-header h1 {
+    font-size: 2.8em;
+    font-weight: 700;
+    color: #2a2a2a;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    color: #666666;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.sociallinks {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.sociallinks a {
+    text-decoration: none;
+    font-size: 1em;
+    color: #007bff;
+}
+
+.sociallinks a:hover {
+    color: #0056b3;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+    width: 100%;
+    max-width: 1400px;
+    padding: 20px;
+}
+
+.grid-container div[class$="-title"] {
+    text-align: left;
+    font-weight: bold;
+}
+
+.grid-container div[class$="-content"] {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.grid-container h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #2a2a2a;
+}
+
+.grid-container p {
+    margin-bottom: 10px;
+    font-size: 1em;
+    color: #666666;
+}
+
+.experience-content {
+    grid-column: 2 / 3;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.experience-content h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333333;
+}
+
+.experience-content p {
+    font-size: 1em;
+    color: #666666;
+}
+
+.experience-content ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.experience-content li {
+    margin-bottom: 10px;
+    font-size: 0.95em;
+    color: #666666;
+}
+
+a:link {
+    color: #2a2a2a;
+    text-decoration: none;
+}
+
+a:visited {
+color: #2a2a2a;}
+
+a:hover {
+    color: #0056b3;
+}
+
+a:active {
+    color: darkgray;
+}
+
+.documents-content a {
+    display: block;
+    margin-bottom: 15px;
+    color: #2a2a2a;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.documents-content a:hover {
+    color: #0056b3;
+}
+
+.documents-content img {
+    margin-left: 10px;
+    width: 30px;
+    height: auto;
+    vertical-align: middle;
+}
+.aboutme-content {
+    font-size: 1.3em;
+}
+.resume-thumbnail {
+    width: 300px !important;  
+    height: auto !important; 
+    display: block;
+    margin-top: 10px;
+    border: 3px solid #333;
+    border-radius: 10px;
+}
